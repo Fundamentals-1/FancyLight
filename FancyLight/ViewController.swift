@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         lightButton.layer.borderWidth = 0.5
-        //lightButton.layer.borderColor = UIColor(cgColor: )
+        lightButton.layer.borderColor = UIColor.lightGray.cgColor
         lightButton.layer.cornerRadius = 22
         updateUI()
     }

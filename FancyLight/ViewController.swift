@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        lightButton.layer.borderWidth = 0.5
+        //lightButton.layer.borderColor = UIColor(cgColor: )
+        lightButton.layer.cornerRadius = 22
         updateUI()
     }
     

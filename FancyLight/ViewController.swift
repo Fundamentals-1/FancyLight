@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    enum ScreenColor {
+            case white, red, blue, green
+        }
+    
     // MARK: - IB Outlets
     @IBOutlet weak var lightButton: UIButton!
     
     // MARK: - Instance Properties
     var lightOn = true
+    var counter = 0
 
     
     // MARK: - VDL
@@ -33,6 +38,11 @@ class ViewController: UIViewController {
         updateUI()
     }
     
+    @IBAction func swipeToChangeColor(_ sender: UISwipeGestureRecognizer) {
+        counter += 1
+        counterAssignsColor()
+        
+    }
     
     // MARK: - Instance Methods
     func updateUI() {
@@ -46,5 +56,39 @@ class ViewController: UIViewController {
             lightButton.setTitleColor(.white, for: .normal)
         }
     }
+    
+    func swipeToUpdateUI(forColor screenColor: ScreenColor) {
+    
+            switch screenColor {
+            case .white:
+                view.backgroundColor = .white
+            case .red:
+                view.backgroundColor = .red
+            case .blue:
+                view.backgroundColor = .blue
+            case .green:
+                view.backgroundColor = .green
+//            case .black:
+//                view.backgroundColor = .black
+            }
+        }
+        
+        func counterAssignsColor() {
+            switch counter {
+            //case 0:
+                //swipeToUpdateUI(forColor: .white)
+            case 1:
+                swipeToUpdateUI(forColor: .red)
+            case 2:
+                swipeToUpdateUI(forColor: .blue)
+            case 3:
+                swipeToUpdateUI(forColor: .green)
+//            case 4:
+//                swipeToUpdateUI(forColor: .black)
+            default:
+                counter = 0
+                swipeToUpdateUI(forColor: .white)
+            }
+        }
 }
 

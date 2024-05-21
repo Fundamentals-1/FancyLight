@@ -28,12 +28,21 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Je0-t8-Pdv" appends="YES" id="Lc5-iH-Aef"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="lightButton" destination="dbh-sT-xMi" id="KcV-bR-kl9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="Je0-t8-Pdv">
+                    <connections>
+                        <action selector="swipeToChangeColor:" destination="BYZ-38-t0r" id="xgd-gT-Lud"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="127.48091603053435" y="3.5211267605633805"/>
         </scene>

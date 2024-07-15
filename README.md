@@ -95,8 +95,8 @@ Project Link: [SwiftTeacher](https://github.com/Fundamentals-3/GuessMyNumber/blo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/Fundamentals-3/GuessMyNumber.svg?style=for-the-badge
-[issues-url]: https://github.com/Fundamentals-3/GuessMyNumber/issues
+[issues-shield]: https://img.shields.io/github/issues/Fundamentals-1/FancyLight.svg?style=for-the-badge
+[issues-url]: https://github.com/Fundamentals-1/FancyLight/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/Fundamentals-1/FancyLight/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

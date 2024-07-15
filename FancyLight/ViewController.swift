@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     // MARK: - IB Actions
     @IBAction func lightButtonTapped(_ sender: Any) {
+        // Note: I initally use the next line to change the state of the lightOn property. We change to use the lightOn.toggle() method after the testing the app's functionality so that I can reinforce the concept of using built-in methods as being the best, most memory efficient for any platfrom.
         //lightOn = !lightOn
         lightOn.toggle()
         updateUI()

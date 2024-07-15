@@ -25,6 +25,7 @@
 		EBBB20312BF3C32F00FF509E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBB20342BF3C32F00FF509E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBBB20362BF3C32F00FF509E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4B72C2C45BE9700FE2316 /* Fancy Light UI Layout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fancy Light UI Layout.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				EB79033B2C4555CA009DED73 /* README.md */,
+				EBD4B72C2C45BE9700FE2316 /* Fancy Light UI Layout.pdf */,
 				EBBB20272BF3C32E00FF509E /* FancyLight */,
 				EBBB20262BF3C32E00FF509E /* Products */,
 			);

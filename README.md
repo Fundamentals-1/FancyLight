@@ -53,7 +53,7 @@ A single-view app that is modeled on the original flashlight apps launched at th
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add PDF screenshot of app UI layout in Document Outline
+- [x] Add PDF screenshot of app UI layout in Document Outline
 - [ ] Create blog post for the project for [Swift Teacher blog](https://swiftteacher.org)
 
 

@@ -27,10 +27,11 @@ class ViewController: UIViewController {
     // MARK: - VDL
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // #9 - style the button (slightly)
         lightButton.layer.borderWidth = 0.5
         lightButton.layer.borderColor = UIColor.lightGray.cgColor
         lightButton.layer.cornerRadius = 22
+        
         updateUI()
     }
     
@@ -103,4 +104,5 @@ class ViewController: UIViewController {
 // #6 - CTRL-drag in the Assistant Editor to connect the action to the ViewController
 // #7 - increment the counter property to so that each swipe will invoke a different case in the switch statement in the counterAssignsColor() method.
 // #8 - call the counterAssignsColor() method in the swipeGetureRecognizer action.
-// #9 - Build, run, and test your app. Enjoy!!
+// #9 - style the button (just slightly)
+// #10 - Build, run, and test your app. Enjoy!!

@@ -54,7 +54,7 @@ A single-view app that is modeled on the original flashlight apps launched at th
 ## Roadmap
 
 - [x] Add PDF screenshot of app UI layout in Document Outline
-- [ ] Create blog post for the project for [Swift Teacher blog](https://swiftteacher.org)
+- [x] Create blog post for the project for [Swift Teacher blog](https://swiftteacher.org)
 
 
 See the [open issues](https://github.com/Fundamentals-1/FancyLight/issues) for a full list of proposed features (and known issues).

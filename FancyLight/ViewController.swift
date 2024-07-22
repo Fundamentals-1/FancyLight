@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     // MARK: - VDL
     override func viewDidLoad() {
         super.viewDidLoad()
-        // #9 - style the button (slightly)
+        // #10 - style the button (slightly)
         lightButton.layer.borderWidth = 0.5
         lightButton.layer.borderColor = UIColor.lightGray.cgColor
         lightButton.layer.cornerRadius = 22
@@ -66,8 +66,10 @@ class ViewController: UIViewController {
         }
     }
     
-    // #3 - add this switch statement
+    // #3 - add this switch statement without the if lightOn
     func swipeToUpdateUI(toColor screenColor: ScreenColor) {
+        // #9 - disallow swiping by adding next line if lightOn
+        if lightOn {
             switch screenColor {
             case .white:
                 view.backgroundColor = .white
@@ -77,6 +79,7 @@ class ViewController: UIViewController {
                 view.backgroundColor = .blue
             case .green:
                 view.backgroundColor = .green
+                }
             }
         }
         
@@ -104,5 +107,6 @@ class ViewController: UIViewController {
 // #6 - CTRL-drag in the Assistant Editor to connect the action to the ViewController
 // #7 - increment the counter property to so that each swipe will invoke a different case in the switch statement in the counterAssignsColor() method.
 // #8 - call the counterAssignsColor() method in the swipeGetureRecognizer action.
-// #9 - style the button (just slightly)
-// #10 - Build, run, and test your app. Enjoy!!
+// #9 - fix ability to still swip and change the color when "Off" by wrapping swipeToUpdateUI switch statement in if lightOn
+// #10 - style the button (just slightly)
+// #11 - Build, run, and test your app. Enjoy!!
